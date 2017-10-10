@@ -1,10 +1,10 @@
-### UIActivityViewController, Xibs, Custom UIButton, UIPropertyAnimator, CALayer, CAAnimation
+### UIActivityViewController, Xibs, Custom UIButton, UIViewPropertyAnimator, CALayer, CAAnimation
 
 [Get all files here](https://github.com/philosopherdog/W6D3-Lecture)
 
-I started today be showing how to use playgrounds to load a view controller to display an image loaded locally. We then worked on URLSession to make a network request for an image that we displayed. The request used a callback completion handler. I showed how to handle errors, and how to use the defer statement for calling the completion handler.
+I started today with a discussion of Animation, CALayer, UIViewPropertyAnimator. I did some live coding in which I went through the main types of CAAffineTransform animations, which are central to any animation work.
 
-Next I went over a bunch of things related to the assignment today. I live coded a project found in QuotePro2 folder that demonstrates the following:
+Next I went over a bunch of things related to the assignment today. I live coded a project found with starter code from in the QuoteProStarter folder that demonstrates the following:
 
 1. how to load a view from a Xib file.
 2. how to do a callback from a subview to the view controller using target action.
