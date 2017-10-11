@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAF273911F8E6AA8004F1873 /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF273901F8E6AA8004F1873 /* QuoteView.xib */; };
+		AAF273931F8E6ABC004F1873 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF273921F8E6ABC004F1873 /* QuoteView.swift */; };
+		AAF273981F8E74B5004F1873 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF273971F8E74B5004F1873 /* CameraButton.swift */; };
 		AAF7E1821F8D6417004FA672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E1811F8D6417004FA672 /* AppDelegate.swift */; };
 		AAF7E1841F8D6417004FA672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E1831F8D6417004FA672 /* ViewController.swift */; };
 		AAF7E1871F8D6417004FA672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF7E1851F8D6417004FA672 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAF273901F8E6AA8004F1873 /* QuoteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		AAF273921F8E6ABC004F1873 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		AAF273971F8E74B5004F1873 /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
 		AAF7E17E1F8D6417004FA672 /* QuoteProStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteProStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF7E1811F8D6417004FA672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF7E1831F8D6417004FA672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,9 +83,14 @@
 		AAF7E1801F8D6417004FA672 /* QuoteProStarter */ = {
 			isa = PBXGroup;
 			children = (
+				AAF7E18D1F8D6417004FA672 /* Info.plist */,
 				AAF7E1A11F8D6421004FA672 /* Supplementary Files */,
+				AAF7E1831F8D6417004FA672 /* ViewController.swift */,
 				AAF7E1851F8D6417004FA672 /* Main.storyboard */,
 				AAF7E1881F8D6417004FA672 /* Assets.xcassets */,
+				AAF273901F8E6AA8004F1873 /* QuoteView.xib */,
+				AAF273921F8E6ABC004F1873 /* QuoteView.swift */,
+				AAF273971F8E74B5004F1873 /* CameraButton.swift */,
 			);
 			path = QuoteProStarter;
 			sourceTree = "<group>";
@@ -97,9 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF7E1811F8D6417004FA672 /* AppDelegate.swift */,
-				AAF7E1831F8D6417004FA672 /* ViewController.swift */,
 				AAF7E18A1F8D6417004FA672 /* LaunchScreen.storyboard */,
-				AAF7E18D1F8D6417004FA672 /* Info.plist */,
 			);
 			path = "Supplementary Files";
 			sourceTree = "<group>";
@@ -190,6 +199,7 @@
 				AAF7E18C1F8D6417004FA672 /* LaunchScreen.storyboard in Resources */,
 				AAF7E1891F8D6417004FA672 /* Assets.xcassets in Resources */,
 				AAF7E1871F8D6417004FA672 /* Main.storyboard in Resources */,
+				AAF273911F8E6AA8004F1873 /* QuoteView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF7E1841F8D6417004FA672 /* ViewController.swift in Sources */,
+				AAF273931F8E6ABC004F1873 /* QuoteView.swift in Sources */,
+				AAF273981F8E74B5004F1873 /* CameraButton.swift in Sources */,
 				AAF7E1821F8D6417004FA672 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
